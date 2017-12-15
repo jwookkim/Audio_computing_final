@@ -1,0 +1,60 @@
+<html class="no-js" lang="">
+    <head>
+        <title>CTP431 Final Project</title>
+    </head>
+    <body style="background-color:black;" link="#FFFFFF" vlink="#808080" alink="#FF0000">
+                <div class="text">
+                    <font color="white">
+                    <h1>Webcam Piano</h1>
+                    <h3>CTP431 20175082 Kim Jongwook</h3>   
+                    <h2>Intro</h2>
+
+                    </script>
+                    <p>
+                        The original plan was not a webcam piano. I wanted to created a web karaoke program that could put the effects on the voices in real time. But, project was faild. So, I decided to change the plan, and imitate the theremin I leand in this class. </p>
+                    <p>
+                        The revised plan is as follows.
+                    </p>
+                    
+                    <h2>Revised Plan</h2>
+                    <h3>A : Playing the piano note according to the position of one hand </h3>
+                    <p>
+                        I used a webcam to recognize the position of my hand so that I could play a specific note on the piano.
+
+                    </p>
+                    <h3>B : Imitating Theremin </h3>
+                    <p>
+                        While playing the piano according to the position of one hand, put various effects according to the position of the other hand. 
+                    </p>
+
+                    <h2>Method</h2>
+                    <h3>A : Webcam motion detection using frame difference and thresholding</h3>
+                    <p>
+                       In order to recognize the movement and the position using the webcam, the difference between the previous frame and the current frame is calculated and theresholding the difference according to the specific value. 
+
+                    </p>
+
+                    <h3>B : p5.js Audio tutorial + Audio Effect </h3>
+                    <p>
+                        I used p5.js library to sound the piano scale and tried to  apply audio effect. 
+                    </p>
+                    
+                    
+                    <h2>Prototype Link</h2>
+
+
+                    <a href="Final_jongwook.html"> "Webcam Piano"</a>
+                    <p></p><p></p><p></p>
+                    <h2>Demo video</h2>
+                    <video src="Demo_video.mp4" controls> "Webcam Piano Demo Video" </video>
+
+                    <h3> Refference </h3>
+                    <p>
+                        Motion detection "https://github.com/ualogic/WebCam-Piano-P5.js"
+
+                    </p>
+
+                </font>
+                </div>            
+    </body>
+</html>
